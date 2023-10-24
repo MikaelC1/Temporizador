@@ -1,0 +1,84 @@
+:root {
+    --font-numbers: 'Nosifer', sans-serif;;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(Assets/Fondo.jpg);
+}
+
+h1 {
+    text-align: center;
+}
+
+.seleccion {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 200px;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bolder;
+    outline: 1px solid;
+    background-color: rgba(255, 255, 255, 0.39);
+    margin-left: 10px;
+}
+
+.tiempo {
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.tiempo input {
+    width: auto;
+    height: 15px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.botones {
+    display: flex;
+    margin-left: 50px;
+    gap: 5px;
+
+}
+
+.botones button {
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    border: none;
+    font-size: 20px;
+    border-radius: 50%;
+    color: white;
+
+}
+.tiempo-restante #timer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tiempo-restante div span{
+    font-size: 90px;
+
+}
+
+
+.restante-card {
+    font-family: var(--font-numbers);
+    color: red;
+    display: flex;
+    margin-top: 40px;
+}
+
+.restante {
+    margin-right: 20px;
+}
