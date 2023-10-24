@@ -7,28 +7,29 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h1>Temporizador</h1>
+    <h1>Timer</h1>
     <div class="seleccion">
         <div class="tiempo">
-            <label for="minutes">Minutos:</label>
+            <label for="minutes">Minutes:</label>
             <input type="number" id="minutes" min="0" max="59" value="0">
         </div>
         
         <div class="tiempo">
-            <label for="seconds">Segundos:</label> 
+            <label for="seconds">Seconds:</label> 
             <input type="number" id="seconds" min="0" max="59" value="0">
         </div>
 
         <div class="botones">
-            <button id="startButton">Iniciar</button>
-            <button id="stopButton">Detener</button>
+            <button id="startButton">Start</button>
+            <button id="stopButton">Stop</button>
         </div>
     </div> 
         <div class="tiempo-restante">
-            <div id="timer"><span>Tiempo restante: </span>
+            <div id="timer"><span>Time Remaining: </span>
                 <div class="restante-card">
-                    <div class="restante"><span id="displayMinutes">0</span> minutos </div>
-                    <div class="restante"><span id="displaySeconds">0</span> segundos</div>
+                    <div class="restante"><span id="displayMinutes">0</span></div>
+                    <div><span>:</span></div>
+                    <div class="restante"><span id="displaySeconds">0</span></div>
                 </div>
             </div>
         </div>  
